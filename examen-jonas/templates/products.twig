@@ -1,0 +1,12 @@
+{# templates/_partials/products.twig #}
+<section class="product-list">
+    {% for drink in entries %}
+    
+    <article class="product" data-category="{{ drink.categorien.one().slug }}" >
+        <img src="{{ drink.meubelImage.one().getUrl('medium') }}" alt="{{ drink.title }}">
+        <h2 style="color: var(--black-color);">{{ drink.title }}</h2>
+        <p style="color: var(--secondary-color);">{{ drink.beschrijving }}</p>
+        <span class="score" style="color: var(--primary-color);">${{ drink.prijs }}</span>
+    </article>
+    {% endfor %}
+</section>

@@ -1,0 +1,12 @@
+columnSuffix: xcfhxgvw
+contentColumnType: char(7)
+fieldGroup: ffc5b93d-e571-4d92-a564-280a8db6237e # Common
+handle: zwart
+instructions: 'dit is de standaard zwart kleur, alles wat zwart is veranderd dan.'
+name: zwart
+searchable: false
+settings:
+  defaultColor: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

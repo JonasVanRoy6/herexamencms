@@ -1,0 +1,12 @@
+columnSuffix: esbuwhni
+contentColumnType: char(7)
+fieldGroup: ffc5b93d-e571-4d92-a564-280a8db6237e # Common
+handle: secundair
+instructions: 'kies een kleur, dit is de 2e meest voorkomende kleur. '
+name: secundair
+searchable: false
+settings:
+  defaultColor: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

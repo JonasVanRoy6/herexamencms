@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: header
+name: header
+propagationMethod: all
+siteSettings:
+  75d00fd6-59d1-4155-8a76-00491194e8ff: # examen-Jonas-van-roy
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

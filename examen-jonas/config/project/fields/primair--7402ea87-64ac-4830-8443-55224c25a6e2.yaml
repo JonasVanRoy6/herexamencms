@@ -1,0 +1,12 @@
+columnSuffix: ykpxmovf
+contentColumnType: char(7)
+fieldGroup: ffc5b93d-e571-4d92-a564-280a8db6237e # Common
+handle: primair
+instructions: 'kies een kleur, deze gaat het meest voorkomen op de website.'
+name: primair
+searchable: false
+settings:
+  defaultColor: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

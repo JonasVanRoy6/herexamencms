@@ -1,0 +1,20 @@
+columnSuffix: uvymsfej
+contentColumnType: 'decimal(7,2)'
+fieldGroup: ffc5b93d-e571-4d92-a564-280a8db6237e # Common
+handle: prijs
+instructions: null
+name: prijs
+searchable: false
+settings:
+  decimals: 2
+  defaultValue: null
+  max: 99999
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: 5
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

@@ -1,0 +1,59 @@
+defaultPlacement: end
+fieldLayouts:
+  a392b45d-15d7-46c7-93a9-0e1f33e641c0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 7d9da910-fded-4f84-b7a3-e7f2113aa8b4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae7581b7-0a02-409f-aeab-de5ba0d6eb81 # categorien
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b8e6ce3-20ae-40c4-8317-cf4b928c771b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7a1312b2-cce4-4d43-b906-a90d2931e771
+        userCondition: null
+handle: productcategorieen
+name: Productcategorieën
+siteSettings:
+  75d00fd6-59d1-4155-8a76-00491194e8ff: # examen-Jonas-van-roy
+    hasUrls: true
+    template: productcategorieen/_category.twig
+    uriFormat: 'productcategorieen/{slug}'
+structure:
+  maxLevels: 4
+  uid: 6aab9b82-176f-44f5-b974-ad333916521e

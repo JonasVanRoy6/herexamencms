@@ -1,0 +1,48 @@
+fieldLayouts:
+  178c18a4-61e1-476c-80bd-066394a35161:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7402ea87-64ac-4830-8443-55224c25a6e2 # primair
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b683fef3-b7bb-4911-98e5-35bfb6ad6239
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 73298fc0-1360-40e5-9779-65679d8b687f # secundair
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11f256f4-07f1-42de-ba39-bb5d7cd89ad9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c8665f7-e2f0-4f43-8468-f3d31c375024 # zwart
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 408fcff8-346f-4bf0-91de-4a3ec0e8daec
+            userCondition: null
+            warning: null
+            width: 100
+        name: kleur
+        uid: 2cca6dbe-82fe-4b9f-83ec-1d94ef0ea686
+        userCondition: null
+handle: kleuren
+name: kleuren
+sortOrder: 1

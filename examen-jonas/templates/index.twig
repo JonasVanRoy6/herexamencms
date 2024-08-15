@@ -1,0 +1,26 @@
+{% extends "_layouts/main" %}
+
+{% block scripts %}
+    {{ parent() }}
+    
+{% endblock %}
+
+{% block main %}
+{% include 'styles.twig'%}
+{% include 'header.twig' with { entries: craft.entries.section('header').limit(9).all() } %}
+<p id = 'order'> Sort by by</p>
+<div class="sort-buttons">
+    <button onclick="filterItems('*')">Alle</button>
+    <button onclick="filterItems('stoelen')">Stoelen</button>
+    <button onclick="filterItems('tafels')">Tafels</button>
+    <button onclick="filterItems('kasten')">Kasten</button>
+</div>
+
+<p id = 'order'> Order by</p>
+<div class="sort-buttons">
+    <button onclick="sortItemsByScore('asc')">Lowest Price</button>
+    <button onclick="sortItemsByScore('desc')">Highest Price</button>
+</div>
+{% include 'products.twig' with { entries: craft.entries.section('meubels').limit(9).all() } %}
+
+{% endblock %}

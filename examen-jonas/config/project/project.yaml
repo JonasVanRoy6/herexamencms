@@ -1,0 +1,69 @@
+dateModified: 1723747813
+email:
+  fromEmail: r0952480@student.thomasmore.be
+  fromName: examen-Jonas-van-roy
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
+meta:
+  __names__:
+    0ff5a263-8c10-4c1b-a77c-896c4d48e41e: medium # medium
+    1a746295-d744-470d-bfb7-0cb596b068af: meubels # meubels
+    5a1d0dff-e9b9-4313-af3b-69517129c377: Productcategorieën # Productcategorieën
+    6c94ac7a-b785-4446-a27b-beeecd5ff68b: examen-Jonas-van-roy # examen-Jonas-van-roy
+    8f9949a3-ec4d-4266-8aa2-f8a69dbe9ac6: header # header
+    9c8665f7-e2f0-4f43-8468-f3d31c375024: zwart # zwart
+    73eeabaf-f915-409a-9a3b-691c8e1c24a5: header # header
+    75d00fd6-59d1-4155-8a76-00491194e8ff: examen-Jonas-van-roy # examen-Jonas-van-roy
+    81cec9b8-d078-4d2d-9966-301f621d9ee3: kleuren # kleuren
+    538cba14-d0f8-4365-9d15-694d4b417ee0: meubels # meubels
+    03727efa-ff38-40c7-806c-c335632b6f1e: 'meubel Image' # meubel Image
+    7191d1fe-0469-4222-8421-739013ce3494: meubels # meubels
+    7402ea87-64ac-4830-8443-55224c25a6e2: primair # primair
+    9603d0d8-6306-462f-a967-b1719be59cd2: meubels # meubels
+    73298fc0-1360-40e5-9779-65679d8b687f: secundair # secundair
+    14004384-f7d8-482a-a0fd-00d8c56b5c8f: prijs # prijs
+    ae7581b7-0a02-409f-aeab-de5ba0d6eb81: categorien # categorien
+    cc200480-e5ff-46b1-b444-92d3798e09c8: beschrijving # beschrijving
+    d18e0f7b-f2f7-43ab-9cf8-34769f47adcc: 'Public Schema' # Public Schema
+    ffc5b93d-e571-4d92-a564-280a8db6237e: Common # Common
+plugins:
+  altify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      altTextGenerator: null
+      altTextTranslator: null
+      deeplApiKey: null
+      huggingFaceApiToken: 'F&DGDD63I9Z!N+PV1AQYJW6&KY2%ESIIL54D6GVF$Q6M9EQWN+ JC49A%$7RT91=C9+S&E!E#F4Y9M$QCYKD*2M%TN/T/L5=48G&2 WWHJKEC#HA8KC!8/!4BHC3R$L4QY4XR#U$0X$015H173#BA8=W Q2K%L6R=KAG0MMHF*VHBOBUBDJHR4SPBTVC1E/K65/^LZGS^WD YJD/+7V5LVHJ!RLYK5$DLAS=%D#46YZPNY%3HMWT7$0/37X=3!'
+      wordsBlackList:
+        - arafed
+        - araffes
+        - araffe
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: examen-Jonas-van-roy
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

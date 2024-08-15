@@ -1,0 +1,19 @@
+columnSuffix: pgfoymjv
+contentColumnType: text
+fieldGroup: 9603d0d8-6306-462f-a967-b1719be59cd2 # meubels
+handle: beschrijving
+instructions: 'korte beschrijving van de meubel'
+name: beschrijving
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 500
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
